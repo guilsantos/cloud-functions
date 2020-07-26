@@ -22,6 +22,12 @@ to run with hot reload use
 
 It will probably run on port 8080, after that just be happy, target it with postman or your app.
 
+## Local use with docker (recommended)
+
+With docker installed in the machine, just run the following command
+
+### `docker-compose up dev`
+
 ## Deploying
 
 To deploy it use the following command

@@ -14,3 +14,10 @@
 .gitignore
 
 node_modules
+src
+
+docker-compose.yml
+Dockerfile.dev
+LICENSE
+README.md
+tsconfig.json
