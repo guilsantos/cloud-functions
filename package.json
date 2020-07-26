@@ -2,10 +2,10 @@
   "name": "cloud-function",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "build/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "gcloud functions deploy helloHttp --runtime nodejs10 --trigger-http --allow-unauthenticated"
+    "start": "tsc && functions-framework --target=helloHttp"
   },
   "author": "",
   "license": "ISC",
@@ -13,6 +13,8 @@
     "escape-html": "^1.0.3"
   },
   "devDependencies": {
-    "@google-cloud/functions-framework": "^1.6.0"
+    "@google-cloud/functions-framework": "^1.6.0",
+    "@types/node": "^14.0.26",
+    "typescript": "^3.9.7"
   }
 }

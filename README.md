@@ -6,11 +6,15 @@ Using Cloud Functions native, without any framework like serverless to do this. 
 
 To run the project locally you will need to use the the functions-framework from the google team, to install it execute the following command.
 
-#`npm install @google-cloud/functions-framework`
+### `npm install @google-cloud/functions-framework`
 
 To use it
 
-#`FUNCTION_TARGET=helloHttp npx @google-cloud/functions-framework`
+### `FUNCTION_TARGET=helloHttp npx @google-cloud/functions-framework`
+
+or just run
+
+### `npm start`
 
 It will probably run on port 8080, after that just be happy, target it with postman or your app.
 
@@ -18,6 +22,6 @@ It will probably run on port 8080, after that just be happy, target it with post
 
 To deploy it use the following command
 
-#`gcloud functions deploy helloHttp --runtime nodejs10 --trigger-http --allow-unauthenticated`
+### `gcloud functions deploy helloHttp --runtime nodejs10 --trigger-http --allow-unauthenticated`
 
 To consult the others flag and options just go to [official documentation](https://cloud.google.com/functions/docs/deploying/filesystem)
