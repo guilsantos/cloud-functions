@@ -14,5 +14,5 @@ export const helloHttp = (req, res) => {
     query: req.query
   }
   console.log('req', request)
-  res.send(`Hello ${escapeHtml(req.query.name || req.body.name || 'World')}!`);
+  res.send(`Hello every body in the ${escapeHtml(req.query.name || req.body.name || 'World')}!`);
 };

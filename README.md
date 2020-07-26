@@ -16,6 +16,10 @@ or just run
 
 ### `npm start`
 
+to run with hot reload use
+
+### `npm run start:watch`
+
 It will probably run on port 8080, after that just be happy, target it with postman or your app.
 
 ## Deploying
